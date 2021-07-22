@@ -1,0 +1,19 @@
+#parking_canvas{
+    border-style: ridge;
+    border-width: 20px;
+    background-color:aqua;
+}
+#T1{
+    color: chartreuse;
+}
+#T2{
+    color: deeppink;
+}
+#note{
+    color: red;
+}
+body{
+    background-image: url("Car BG.jpg");
+    background-position: center;
+    background-size: cover;
+}
