@@ -77,6 +77,7 @@ function arrowleft(){
     if (blue_car_X >= 0){
         blue_car_X = blue_car_X - 10;
         console.log("when left is pressed, X position of blue car is" + blue_car_X + ",Y position of blue car is"+ blue_car_Y);
+        uploadBG();
         uploadMcar();
         uploadPcar();
         uploadRcar();
@@ -88,6 +89,7 @@ function arrowright(){
     if (blue_car_X <= 825){
         blue_car_X = blue_car_X + 10;
         console.log("when right is pressed, X position of blue car is" + blue_car_X + ",Y position of blue car is"+ blue_car_Y);
+        uploadBG();
         uploadMcar();
         uploadPcar();
         uploadRcar();
@@ -99,6 +101,7 @@ function arrowup(){
     if (blue_car_Y >= 0){
         blue_car_Y = blue_car_Y - 10;
         console.log("when up is pressed, Y position of blue car is" + blue_car_Y + ",X position of blue car is"+ blue_car_X);
+        uploadBG();
         uploadMcar();
         uploadPcar();
         uploadRcar();
@@ -110,6 +113,7 @@ function arrowdown(){
     if (blue_car_Y <= 725){
         blue_car_Y = blue_car_Y + 10;
         console.log("when up is pressed, Y position of blue car is" + blue_car_Y + ",X position of blue car is"+ blue_car_X);
+        uploadBG();
         uploadMcar();
         uploadPcar();
         uploadRcar();
